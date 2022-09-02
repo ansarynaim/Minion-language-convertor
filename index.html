@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minion Language Convertor</title>
-</head>
-<body>
-  hey welcome to minion App converter 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minion Language Convertor</title>
+    <style>
+      textarea {
+        width: 90%;
+        height: 10vh;
+        margin: 1rem;
+        padding: 1rem;
+        display: block;
+      }
+
+      #btn-translate {
+        height: 2rem;
+        width: 6rem;
+        border: 1px solid green;
+        color: aliceblue;
+        background-color: #ff8899;
+        border-radius: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Minion Language Converter</h1>
+    <textarea id="txt-input" placeholder="Write in English"></textarea>
+    <button id="btn-translate">Translate</button>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
 </html>
