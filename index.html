@@ -22,12 +22,22 @@
         background-color: #ff8899;
         border-radius: 3rem;
       }
+
+      #output{
+        border: 1px solid black;
+        height: 10vh;
+        width: 80%;
+        margin: 1rem;
+        padding: 1rem;
+      }
     </style>
   </head>
   <body>
     <h1>Minion Language Converter</h1>
     <textarea id="txt-input" placeholder="Write in English"></textarea>
     <button id="btn-translate">Translate</button>
+    <div>Your Output will be here 👇</div>
+    <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
   </body>
 </html>
